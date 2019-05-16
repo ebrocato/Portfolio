@@ -1,0 +1,118 @@
+
+
+.header {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: row-reverse;
+  border-top: 10px solid #e75a7c;
+  
+}
+.header .col a {
+  color: #f2f5ea
+}
+.header .col {
+  background: #e75a7c;
+  padding: 22px;
+  margin-left: 1px;
+  
+}
+
+
+#hero-name {
+  text-align: center;
+  font-family: 'Lancelot', cursive;
+  font-size: 180px;
+  color:#2c363f;
+  margin-top: 17px;
+  margin-bottom: 35px;
+  font-weight: bold;
+}
+
+.col2 {
+  font-family: 'Crimson Text', serif;
+  color: #2c363f;
+
+
+}
+
+.small-display {
+  font-size:15px;
+  padding: 3px;
+
+
+}
+
+.large-display {
+  font-weight: bold;
+  font-size: 21px;
+
+}
+
+
+.flex-display {
+  display: flex;
+  justify-content: space-around;
+  width: 98%;
+  margin: 6px;
+  
+
+}
+
+
+.hero-descrip-bar {
+  display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #2c363f;
+    margin: 1em 0;
+    padding: 0;
+    margin-left: 77px;
+    margin-right: 77px;
+
+}
+
+.bio-flex-display {
+  display: flex;
+  flex-direction: column;
+  width: 51%;
+
+  
+
+}
+
+#bio-descrip {
+  font-family: 'Crimson Text', serif;
+  color: #2c363f;
+  position: relative;
+  right: -77px;
+  margin-top: 20px;
+  line-height: 40px;
+  font-size: 22px;
+
+
+}
+
+#bio-title {
+  font-family: 'Lancelot', cursive;
+  font-size: 64px;
+  color: #bbc7a4;
+  margin-top: 56px; 
+  position: relative;
+  right: -77px;
+  font-weight: bold;
+
+
+
+}
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+ }
+
+
+body {
+  text-decoration: none;
+  margin: 0px;
+}
+
+
