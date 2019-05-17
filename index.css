@@ -75,8 +75,36 @@
   display: flex;
   flex-direction: column;
   width: 51%;
+}
 
-  
+.parent-flexbox {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.cat-flexbox {
+  display: flex;
+
+}
+
+#small-title {
+  font-size: 34px; 
+  font-family: 'Crimson Text', serif;
+  color: #d6dbd2;
+  position: relative;
+  right: -77px;
+  font-weight: bold;
+
+
+}
+
+#arrow {
+  font-size: 60px;
+  color:#e75a7c;
+  position: relative;
+  top: 24px;
+  padding:16px;
 
 }
 
@@ -100,10 +128,159 @@
   position: relative;
   right: -77px;
   font-weight: bold;
+}
 
+.portfolio-flex-box {
+  display: flex;
+  flex-direction: row;
+  background: #f2f5ea;
+  position: relative;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 36px;
+  padding-top: 72px;
+  margin-bottom: 65px;
+ 
+  
+}
+
+
+.portfolio-descrip-bar {
+  display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #2c363f;
+    margin: 1em 0;
+    padding: 0;
+    margin-left: 77px;
+    margin-right: 77px;
+    margin-top: 65px;
+}
+
+.portfolio-section-title {
+  font-family: 'Lancelot', cursive;
+  font-size: 64px;
+  color: #bbc7a4;
+  margin-top: 56px; 
+  position: relative;
+  right: -77px;
+  font-weight: bold;
+}
+
+.bookmark-title {
+  font-family: 'Crimson Text', serif;
+  color: #2c363f;
+  font-size: 29px;
+  position: relative;
+  left: -82px;
+
+}
+
+
+.footer-flex-parent {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
 
 
 }
+
+.footer-title {
+  display:flex;
+  justify-content: center;
+  font-family: 'Lancelot', cursive;
+  font-size: 28px;
+  font-weight: bold;
+  color:#2c363f;
+  margin-top: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+
+}
+#email {
+  /* text-align: center; */
+  color: #f2f5ea;
+  background: #e75a7c;
+  padding: 11px;
+
+  position: relative;
+  left: 288px;
+
+
+}
+
+#github {
+  font-size: 34px;
+  color: #f2f5ea;
+  background: #e75a7c;
+  padding: 7px;
+
+  
+}
+
+#linked-in {
+  font-size: 28px;
+  color: #f2f5ea;
+  background: #e75a7c;
+  position:relative;
+  left: -288px;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.desc-flexbox {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-content: center;
+}
+
+#bookmark-paragraph {
+  font-family: 'Crimson Text', serif;
+  color: #2c363f;
+  position: relative;
+  /* margin-top: 20px; */
+  line-height: 30px;
+  font-size: 16px;
+  left: -111px;
+
+}
+
+
+
+.img-flexbox {
+  display: flex;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  height: 107%;
+  padding: 21px;
+  margin-left: -31px;
+  margin-top: -42px;
+  margin-bottom: 33px;
+  background: #d6dbd2;
+
+}
+
+.portfolio-paragraph-bar {
+  display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #e75a7c;
+    margin: 1em 0;
+    padding: 0;
+    margin-left: -205px;
+    margin-right: 77px;
+    margin-top: 12px;
+}
+
+
 * {
   box-sizing: border-box;
   text-decoration: none;
