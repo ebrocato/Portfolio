@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Emily Brocato</title>
   <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="portfolio.css">
   <link rel="stylesheet" type="text/css" href="cat_image.css">
 
   <link href="https://fonts.googleapis.com/css?family=Lancelot" rel="stylesheet">
@@ -40,9 +41,10 @@
 
   <section class="parent-flexbox">
     <div class="bio-flex-display">
-      <div id="bio-title">hello!</div>
-      <div id="small-title">I love making pure CSS images <a id="arrow">&#8627</a></div>
-      <div id="bio-descrip">
+      <div id="bio-title-flex">hello!</div>
+      <div id="small-title">I love making pure CSS images <div id="arrow"><a>&#8627</a></div>
+      </div>
+      <div id="bio-descrip-flex">
 
         Once a medical student now a full-stack developer, I decided to flip the script on my own life and pursue
         a different path. I love the process of taking an idea and transforming it into a functioning product that can
@@ -82,8 +84,8 @@
             <!-- Pupil ~ Black -->
             <div class="pupil">
               <div class="iris"></div>
-              </div>
             </div>
+          </div>
 
           <!-- Right Outer Eye ~ White -->
           <div class="eye-right">
@@ -92,7 +94,7 @@
               <div class="iris">
               </div>
             </div>
-            
+
           </div>
 
           <!-- Nose ~ Brown -->
@@ -117,46 +119,66 @@
 
 
 
+
   </section>
 
 
 
-    <div class="portfolio-descrip-bar"></div>
-    <div class="portfolio-section-title">creations</div>
+  <div class="portfolio-descrip-bar"></div>
+  <div class="portfolio-section-title">
+    <span>creations</span>
+  </div>
 
   <section class="portfolio-flex-box">
-    
-      <div class="img-flexbox">
-        <img src="bookmark-screenshot.png" alt="bookmark screenshot">
-      </div>
 
-      <div class="desc-flexbox">
+
+
+    <div class="desc-flexbox">
+      <div class="flex-box-desc-and-buttons">
 
         <div class="bookmark-title">Bookmark App</div>
         <div class="portfolio-paragraph-bar"></div>
-        <p class="bookmark-desc" id="bookmark-paragraph">A simple app that allows you to store and sort your bookmarks</p>
+        <p class="bookmark-desc" id="bookmark-paragraph">A simple app that allows you to store and sort your bookmarks
+        </p>
+
+        <div class="align-bookmark-buttons hide-small-screen">
+          
+            <div class="style-website"><a class="change-color"
+              href="https://thinkful-ei-dragonfly.github.io/Emily_Bookmarks_App/">Website</a></div>
+            <div class="style-repo"><a class="change-color"
+              href="https://github.com/thinkful-ei-dragonfly/Emily_Bookmarks_App">Repo</a></div>
         
-
-
+        </div>
       </div>
-    
+    </div>
+    <div class="portfolio-image img-flexbox">
+      <img src="bookmark-screenshot.png" alt="bookmark screenshot">
+    </div>
+    <div class="align-bookmark-buttons hide-in-large-display">
+      <div class="style-website"><a class="change-color"
+          href="https://thinkful-ei-dragonfly.github.io/Emily_Bookmarks_App/">Website</a></div>
+      <div class="style-repo"><a class="change-color"
+          href="https://github.com/thinkful-ei-dragonfly/Emily_Bookmarks_App">Repo</a></div>
+    </div>
 
   </section>
 
 
-<footer>
-  <div class="portfolio-descrip-bar"></div>
-  <div class="footer-title">Emily Brocato</div>
-  <section class="footer-flex-parent">
-      
-    <div class="icon-style"><a href="mailto:emilybrocato@outlook.com" class="fa fa-envelope" id="email" style="font-size:25px"></a></div>
-    <div class="icon-style"><a href="https://github.com/ebrocato" class="fa fa-github" id="github" aria-hidden="true"></a></div>
-    <div class="icon-style"><a href="https://www.linkedin.com/in/emilybrocato/" id="linked-in" class="fa fa-linkedin-square"></a></div>
-    
-  </section>
+  <footer>
+    <div class="portfolio-descrip-bar"></div>
+    <div class="footer-title">Emily Brocato</div>
+    <section>
+      <div class="footer-flex-parent">
+        <div id="email"><a href="mailto:emilybrocato@outlook.com" class="icon-style fa fa-envelope"></a></div>
+        <div id="github"><a href="https://github.com/ebrocato" class="icon-style fa fa-github" aria-hidden="true"></a>
+        </div>
+        <div id="linked-in"><a href="https://www.linkedin.com/in/emilybrocato/"
+            class="icon-style fa fa-linkedin-square"></a></div>
+      </div>
+    </section>
 
 
-</footer>
+  </footer>
 </body>
 
 </html>

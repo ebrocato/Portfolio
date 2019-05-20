@@ -12,11 +12,12 @@
   .head{
     position: absolute;
     top:16.5%;
-    left: 25%;
-    width: 50%;
+    left: 16%;
+    width: 68%;
     height: 67%;
     background: black;
     border-radius: 50%;
+    margin-top: -25px;
   }
   .head-copy{
     width: 100%;
@@ -200,3 +201,16 @@
 
 
 
+@media (min-width: 720px) {
+   .head{    
+    left: 25%;
+    width: 50%;  
+  }
+
+
+
+
+
+
+
+}
